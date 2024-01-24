@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="bittencourtjulival" fetch="https://github.com/bittencourtjulival"/>
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
 
 <!--Removals-->
 <remove-project name="frameworks_base" />
   
 <!--Trees-->
-  <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
-           remote="tree"
-           revision="pe" />
+  <project path="device/xiaomi/polaris"
+           name="android_device_xiaomi_polaris"
+           remote="bittencourtjulival"
+           revision="14" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
-           remote="tree"
-           revision="pe" />
+           name="android_device_xiaomi_sdm845-common"
+           remote="bittencourtjulival"
+           revision="14" />
            
-  <project path="vendor/xiaomi"
-           name="vendor_xiaomi"
-           remote="tree"
-           revision="pe" />
+  <project path="vendor/xiaomi_polaris"
+           name="vendor_xiaomi/polaris"
+           remote="bittencourtjulival"
+           revision="14" />
+
+   <project path="vendor/xiaomi/sdm845-common"
+           name="vendor_xiaomi_sdm845-common"
+           remote="bittencourtjulival"
+           revision="14" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kernel_xiaomi_beryllium"
-           remote="tree"
-           revision="fourteen" />
-
-<!--MI Cam--> 
-  <project path="vendor/miuicamera" 
-           name="vendor_miuicamera" 
-           remote="Legendleo90" 
-           revision="thirteen" />
+           name="kernel_xiaomi_sdm845"
+           remote="bittencourtjulival"
+           revision="lineage-21" />
 
 <!--Hardware--> 
   <project path="hardware/xiaomi" 
@@ -43,6 +41,6 @@
 <!--Custom--> 
   <project path="frameworks/base" 
            name="pe_fwb" 
-           remote="Legendleo90" 
-           revision="thirteen" />
+           remote="bittencourtjulival" 
+           revision="udc" />
 </manifest>
