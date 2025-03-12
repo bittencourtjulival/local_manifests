@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="bittencourtjulival" fetch="https://github.com/bittencourtjulival" />
+   <remote name="kami" fetch="https://github.com/kamikaonashi" clone-depth="1" />
+   <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
+      
+ <!-- Device-->
+ <project
+        path="device/xiaomi/stone"
+        name="device_xiaomi_stone"
+        remote="bittencourtjulival"
+        revision="15"
+    />
+ <project
+        path="vendor/xiaomi/stone"
+        name="vendor_xiaomi_stone"
+        remote="bittencourtjulival"
+        revision="15-libperf"
+    />
+ <project
+        path="device/xiaomi/stone-kernel"
+        name="device_xiaomi_stone-kernel"
+        remote="kami"
+        revision="custom"
+    />
+
+ <!-- Soong -->
+ <project
+        path="hardware/xiaomi"
+        name="android_hardware_xiaomi"
+        remote="cr"
+        revision="15.0"
+    />
+
+ <!-- extra -->
+ <project
+        path="vendor/dolby"
+        name="vendor_dolby_oplus"
+        remote="bittencourtjulival"
+        revision="14"
+    />
+</manifest>
