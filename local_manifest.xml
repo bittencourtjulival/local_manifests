@@ -31,12 +31,4 @@
         remote="cr"
         revision="15.0"
     />
-
- <!-- extra -->
- <project
-        path="vendor/dolby"
-        name="vendor_dolby_oplus"
-        remote="bittencourtjulival"
-        revision="14"
-    />
 </manifest>
