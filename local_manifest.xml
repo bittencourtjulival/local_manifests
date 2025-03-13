@@ -19,7 +19,7 @@
     />
  <project
         path="device/xiaomi/stone-kernel"
-        name="android_device_xiaomi_stone-kernel"
+        name="android_kernel_xiaomi_stone"
         remote="cr"
         revision="15.0"
     />
