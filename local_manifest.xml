@@ -3,12 +3,13 @@
 
  <!-- Remotes -->
    <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
+   <remote name="julival" fetch="https://github.com/bittencourtjulival" clone-depth="1" />
       
  <!-- Device-->
  <project
         path="device/xiaomi/stone"
         name="android_device_xiaomi_stone"
-        remote="cr"
+        remote="julival"
         revision="15.0"
     />
  <project
@@ -28,7 +29,7 @@
  <project
         path="hardware/xiaomi"
         name="android_hardware_xiaomi"
-        remote="cr"
+        remote="julival"
         revision="15.0"
     />
 </manifest>
