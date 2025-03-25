@@ -10,7 +10,7 @@
         path="device/xiaomi/stone"
         name="android_device_xiaomi_stone"
         remote="julival"
-        revision="evox"
+        revision="rising"
     />
  <project
         path="vendor/xiaomi/stone"
