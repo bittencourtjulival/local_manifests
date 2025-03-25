@@ -15,8 +15,8 @@
  <project
         path="vendor/xiaomi/stone"
         name="proprietary_vendor_xiaomi-stone"
-        remote="cr"
-        revision="15.0"
+        remote="julival"
+        revision="evox"
     />
  <project
         path="device/xiaomi/stone-kernel"
