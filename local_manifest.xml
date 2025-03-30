@@ -2,7 +2,6 @@
 <manifest>
 
  <!-- Remotes -->
-   <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
    <remote name="julival" fetch="https://github.com/bittencourtjulival" clone-depth="1" />
       
  <!-- Device-->
@@ -20,9 +19,9 @@
     />
  <project
         path="device/xiaomi/stone-kernel"
-        name="android_kernel_xiaomi_stone"
-        remote="cr"
-        revision="15.0"
+        name="device_xiaomi_stone-kernel"
+        remote="julival"
+        revision="custom"
     />
 
  <!-- Soong -->
