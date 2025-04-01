@@ -4,14 +4,13 @@
  <!-- Remotes -->
    <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
    <remote name="julival" fetch="https://github.com/bittencourtjulival" clone-depth="1" />
-   <remote name="cumos" fetch="https://github.com/cumOS" />
       
  <!-- Device-->
  <project
         path="device/xiaomi/stone"
         name="android_device_xiaomi_stone"
         remote="julival"
-        revision="rising-dolby"
+        revision="rising-testD"
     />
  <project
         path="vendor/xiaomi/stone"
@@ -32,13 +31,5 @@
         name="android_hardware_xiaomi"
         remote="julival"
         revision="15.0"
-    />
-
- <!-- Dolby -->
- <project
-        path="vendor/dolby"
-        name="vendor_dolby_oplus"
-        remote="cumos"
-        revision="14"
     />
 </manifest>
