@@ -29,9 +29,9 @@
  <!-- Soong -->
  <project
         path="hardware/xiaomi"
-        name="hardware_xiaomi"
+        name="android_hardware_xiaomi"
         remote="julival"
-        revision="rising"
+        revision="15.0"
     />
 
  
