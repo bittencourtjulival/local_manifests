@@ -10,7 +10,7 @@
         path="device/xiaomi/stone"
         name="android_device_xiaomi_stone"
         remote="julival"
-        revision="evox"
+        revision="qpr2-test"
     />
  <project
         path="vendor/xiaomi/stone"
@@ -29,7 +29,7 @@
  <project
         path="hardware/xiaomi"
         name="android_hardware_xiaomi"
-        remote="julival"
+        remote="cr"
         revision="15.0"
     />
 </manifest>
