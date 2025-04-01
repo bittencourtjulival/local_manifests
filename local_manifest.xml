@@ -30,6 +30,6 @@
         path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="julival"
-        revision="15.0"
+        revision="rising"
     />
 </manifest>
