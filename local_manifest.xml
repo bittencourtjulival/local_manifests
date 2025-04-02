@@ -11,7 +11,7 @@
         path="device/xiaomi/stone"
         name="android_device_xiaomi_stone"
         remote="julival"
-        revision="rising-dolby"
+        revision="rising-test"
     />
  <project
         path="vendor/xiaomi/stone"
